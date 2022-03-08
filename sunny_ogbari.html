@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Innovfide</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+    <div id="container">
+      <!-- first navigation  -->
+      <div class="navbar_wrapper">
+        <div class="navbar">
+          <div class="logo">
+            <img src="Images/logo.png" alt="innovfide logo" />
+          </div>
+          <nav>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Blog</a></li>
+              <li class="last-child"><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+      <!-- second navigation  -->
+      <div class="contact_wrapper">
+        <div class="contact">
+          <p>Contact us</p>
+          <div class="breadcrumb">
+            <span>Home</span>
+            <span>&gt;</span>
+            <span>Contact</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- main -->
+      <main>
+        <div class="main_wrapper">
+          <div class="details-wrapper">
+            <div class="details">
+              <h2>Get in touch with us</h2>
+              <p>
+                Contact us for a Website, Mobile application, Digital marketing
+                or IT support.
+              </p>
+
+              <div>
+                <div class="info">
+                  <img class="image" src="Images/address.png" alt="address" />
+                  <span class="column_text">
+                    Innovfide Technologies Anulekha, Anurag Nagar, Tulinj,
+                    Nallasopara East
+                  </span>
+                </div>
+                <div class="info">
+                  <img src="Images/email.png" alt="email" />
+                  <span class="column_text"> business@innovfide.com </span>
+                </div>
+                <div class="info">
+                  <img src="Images/phone.png" alt="phone icon" />
+                  <span class="column_text"> +91 8767485648 </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="divider"></div>
+          <div id="error"></div>
+          <div>
+            <div id="form">
+              <form action="index.html" method="POST">
+                <div class="row">
+                  <div class="form_item">
+                    <label for="first_name"
+                      >First Name <span style="color: red">*</span></label
+                    >
+                    <input
+                      type="text"
+                      name="first_name"
+                      id="first_name"
+                      placeholder="Please enter your First Name"
+                    />
+                    <span
+                      id="fn_error"
+                      style="color: red; font-size: 8px; display: block"
+                    ></span>
+                  </div>
+
+                  <div class="form_item">
+                    <label for="last_name"
+                      >Last Name: <span style="color: red">*</span></label
+                    >
+                    <input
+                      type="text"
+                      name="last_name"
+                      id="last_name"
+                      placeholder="Please enter your Last Name"
+                    />
+                    <span
+                      id="ln_error"
+                      style="color: red; font-size: 8px; display: block"
+                    ></span>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="form_item">
+                    <label for="email"
+                      >Email: <span style="color: red">*</span></label
+                    >
+                    <input
+                      type="text"
+                      name="email"
+                      id="email"
+                      placeholder="Please enter your Email"
+                    />
+                    <span
+                      id="em_error"
+                      style="color: red; font-size: 8px; display: block"
+                    ></span>
+                  </div>
+
+                  <div class="form_item">
+                    <label for="phone"
+                      >Phone: <span style="color: red">*</span></label
+                    >
+                    <input
+                      type="text"
+                      name="phone"
+                      id="phone"
+                      placeholder="Please enter your Phone No"
+                    />
+                    <span
+                      id="ph_error"
+                      style="color: red; font-size: 8px; display: block"
+                    ></span>
+                  </div>
+                </div>
+
+                <div class="check">
+                  <label for="website">Do you have a website?</label>
+                  <div class="check_input">
+                    <label for="website">
+                      <input type="radio" name="has_website" value="0" />
+                      Yes
+                    </label>
+                    <label for="website">
+                      <input type="radio" name="has_website" value="1" />
+                      No
+                    </label>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="form_item">
+                    <label for="url"
+                      >Website URL: <span style="color: red">*</span></label
+                    >
+                    <input
+                      type="text"
+                      name="url"
+                      id="url"
+                      placeholder="Please enter your Website URL"
+                    />
+                    <span
+                      id="wb_error"
+                      style="color: red; font-size: 8px; display: block"
+                    ></span>
+                  </div>
+                </div>
+
+                <button type="button" class="submit" id="submit">submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="divider_1"></div>
+
+      <div class="footer">
+        <footer>
+          <div class="footer_text">
+            <p>
+              All Rights Reserved | <a href="#">Innovfide Technologies</a> |
+              2021
+            </p>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
